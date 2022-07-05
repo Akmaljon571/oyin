@@ -1,0 +1,82 @@
+.body{
+    background-color: yellow;
+}
+
+.body_red{
+    background-color: red;
+}
+
+.body_green{
+    background-color: green;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header_button{
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(0, 64, 128, 0.449);
+    border-radius: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.header_select{
+    padding: 10px 4px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+
+.main{
+    padding: 20px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 150px;
+}
+
+.hr{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 10px;
+}
+
+.main_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+
+.oylagan_sonim{
+    padding:30px 80px;
+    background-color: #fff;
+    margin-top: -35px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.main_input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;  
+}
+
+.footer_ota{
+    margin-top: 200px;
+    float: right;
+    margin-right: 50px;
+    background-color: rgb(187, 255, 0);
+    padding: 25px;
+    border-radius: 15px;
+}
+
